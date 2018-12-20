@@ -1,0 +1,4 @@
+(1) docker build -t curler .
+(2) docker run -it curler
+(3) helsinki.fi
+(4) GOT RESPONSE
