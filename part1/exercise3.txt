@@ -2,11 +2,10 @@ TL;DR
 =====
 (1) [1. terminal] docker run --name exercise -it ubuntu:16.04 sh -c 'read website; sleep 3; curl http://$website;'
 (2) [2. terminal] docker exec -it exercise bash
-(3) [2. terminal] docker exec -it exercise bash
-(4) [2. terminal => bash] apt-get update && apt-get install -y curl
-(5) [2. terminal] Ctrl+P + Ctrl+Q
-(6) [1. terminal] helsinki.fi
-(7) [1. terminal] GOT RESPONSE
+(3) [2. terminal => bash] apt-get update && apt-get install -y curl
+(4) [2. terminal] Ctrl+P + Ctrl+Q
+(5) [1. terminal] helsinki.fi
+(6) [1. terminal] GOT RESPONSE
 =====
 
 I started the ubuntu image with following command:
